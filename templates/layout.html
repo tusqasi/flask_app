@@ -1,0 +1,15 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- template page -->
+	<meta charset="UTF-8">
+	{% if title%}
+	<title> LGCN - {{ title }}</title>
+	{% else %}
+	<title>LGCN</title>
+	{% endif%}
+</head>
+<body>
+    {% block content%} {% endblock%}
+</body>
+</html>
